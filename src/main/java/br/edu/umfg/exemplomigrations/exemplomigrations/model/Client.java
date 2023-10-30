@@ -48,7 +48,6 @@ public class Client {
     public Client(@JsonProperty("name") String name,
                   @JsonProperty("lastName") String lastName,
                   @JsonProperty("document") String document) {
-        //this.id = UUID.randomUUID();
         this.name = name;
         this.lastName = lastName;
         this.document = document;
